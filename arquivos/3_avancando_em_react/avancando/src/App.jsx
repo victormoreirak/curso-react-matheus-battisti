@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg';
 import './App.css';
 import City from './assets/city.jpg';
+import ManageData from './components/ManageData';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <div>
           <img src={City} alt="cidade" />
         </div>
+        <ManageData />
       </div>
     </>
   );
