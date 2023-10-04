@@ -4,6 +4,8 @@ const ManageData = () => {
   let someData = 10;
 
   const [number, setNumber] = useState(15);
+
+  console.log(number);
   
   return <div>
     <div>

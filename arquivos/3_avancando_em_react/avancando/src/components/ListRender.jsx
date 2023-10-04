@@ -13,7 +13,7 @@ const ListRender = () => {
     const randomNumber = Math.floor(Math.random() * 4);
 
     setUsers((prevUsers) => {
-
+      console.log(prevUsers);
       return prevUsers.filter((user) => randomNumber !== user.id);
     })
   }
