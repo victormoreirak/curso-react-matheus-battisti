@@ -9,6 +9,7 @@ import ConditionalRender from './components/ConditionalRender';
 import ShowUserName from './components/ShowUserName';
 import CarDetails from './components/CarDetails';
 import Fragment1 from './components/Fragment1';
+import Container from './components/Container';
 
 function App() {
   //const name = "Joaquim";
@@ -52,6 +53,13 @@ function App() {
       ))}
       {/* fragment */}
       <Fragment1 propFragment1="teste" />
+      {/* children */}
+      <Container myValue="testing">
+        <p>E este é o conteúdo</p>
+      </Container>
+      <Container myValue="testing">
+        <h5>Testando o container</h5>
+      </Container>
     </div>
   );
 }
