@@ -3,7 +3,7 @@ const ExecuteFunction = ({ myFunction }) => {
     <div>
       <button onClick={myFunction}>Clique aqui para executar a função!</button>
     </div>
-  );
+  )
 };
 
 export default ExecuteFunction;
